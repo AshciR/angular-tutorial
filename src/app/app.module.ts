@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { TestComponent } from './test/test.component';
 import { TestClassComponent } from './test-class/test-class.component';
 import { LessonStyleComponent } from './lesson-style/lesson-style.component';
+import { EventBindingComponent } from './event-binding/event-binding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TestComponent,
     TestClassComponent,
-    LessonStyleComponent
+    LessonStyleComponent,
+    EventBindingComponent
   ],
   imports: [
     BrowserModule,
