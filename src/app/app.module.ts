@@ -7,6 +7,7 @@ import { TestComponent } from './test/test.component';
 import { TestClassComponent } from './test-class/test-class.component';
 import { LessonStyleComponent } from './lesson-style/lesson-style.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
+import { TemplateReferenceComponent } from './template-reference/template-reference.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { EventBindingComponent } from './event-binding/event-binding.component';
     TestComponent,
     TestClassComponent,
     LessonStyleComponent,
-    EventBindingComponent
+    EventBindingComponent,
+    TemplateReferenceComponent
   ],
   imports: [
     BrowserModule,
