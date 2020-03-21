@@ -7,13 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TemplateReferenceComponent implements OnInit {
 
+  public name: string = "";
+  
+
   constructor() { }
 
   ngOnInit() {
   }
 
   public logMessage(message: String) {
-    console.log(message)
+    console.log(message);
   }
 
 }
