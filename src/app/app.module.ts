@@ -9,6 +9,7 @@ import { TestClassComponent } from './test-class/test-class.component';
 import { LessonStyleComponent } from './lesson-style/lesson-style.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import { TemplateReferenceComponent } from './template-reference/template-reference.component';
+import { StructDirectivesComponent } from './struct-directives/struct-directives.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { TemplateReferenceComponent } from './template-reference/template-refere
     TestClassComponent,
     LessonStyleComponent,
     EventBindingComponent,
-    TemplateReferenceComponent
+    TemplateReferenceComponent,
+    StructDirectivesComponent
   ],
   imports: [
     BrowserModule,
