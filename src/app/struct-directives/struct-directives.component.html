@@ -19,3 +19,10 @@
 <ng-template #elseBlock2>
     <h2>Else block</h2>
 </ng-template>
+
+<div [ngSwitch]="color">
+    <div *ngSwitchCase="'red'">You picked Red</div>
+    <div *ngSwitchCase="'blue'">You picked Blue</div>
+    <div *ngSwitchCase="'green'">You picked Green</div>
+    <div *ngSwitchDefault>You didn't pick anything</div>
+</div>

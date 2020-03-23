@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class StructDirectivesComponent implements OnInit {
 
   public displayName: boolean = false;
-
+  public color: String = "cyan";
   constructor() { }
 
   ngOnInit() {
