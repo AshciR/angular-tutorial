@@ -1,0 +1,23 @@
+<div *ngFor="let color of colors; index as i">
+    <h2>{{i}} {{color}}</h2>
+</div>
+
+<p>Boolean if the first element</p>
+<div *ngFor="let color of colors; first as f; last as l">
+    <h2>{{f}} {{color}}</h2>
+</div>
+
+<p>Boolean if the last element</p>
+<div *ngFor="let color of colors; first as f; last as l">
+    <h2>{{l}} {{color}}</h2>
+</div>
+
+<p>Boolean for odd elements</p>
+<div *ngFor="let color of colors; odd as o; even as e">
+    <h2>{{o}} {{color}}</h2>
+</div>
+
+<p>Boolean for even elements</p>
+<div *ngFor="let color of colors; odd as o; even as e">
+    <h2>{{e}} {{color}}</h2>
+</div>
