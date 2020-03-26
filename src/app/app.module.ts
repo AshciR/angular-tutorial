@@ -11,6 +11,8 @@ import { EventBindingComponent } from './event-binding/event-binding.component';
 import { TemplateReferenceComponent } from './template-reference/template-reference.component';
 import { StructDirectivesComponent } from './struct-directives/struct-directives.component';
 import { NgForComponent } from './ng-for/ng-for.component';
+import { ParentComponent } from './parent/parent.component';
+import { ChildComponent } from './child/child.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { NgForComponent } from './ng-for/ng-for.component';
     EventBindingComponent,
     TemplateReferenceComponent,
     StructDirectivesComponent,
-    NgForComponent
+    NgForComponent,
+    ParentComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,

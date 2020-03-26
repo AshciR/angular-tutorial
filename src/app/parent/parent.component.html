@@ -1,0 +1,5 @@
+<h2 style="text-align:center">
+    Parent Component: {{title}}
+</h2>
+<p>{{message}} event was received from the child component</p>
+<app-child (childEvent)="message=$event" [parentData]="name"></app-child>
