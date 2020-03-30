@@ -13,6 +13,7 @@ import { StructDirectivesComponent } from './struct-directives/struct-directives
 import { NgForComponent } from './ng-for/ng-for.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
+import { PipesLessonComponent } from './pipes-lesson/pipes-lesson.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ChildComponent } from './child/child.component';
     StructDirectivesComponent,
     NgForComponent,
     ParentComponent,
-    ChildComponent
+    ChildComponent,
+    PipesLessonComponent
   ],
   imports: [
     BrowserModule,
