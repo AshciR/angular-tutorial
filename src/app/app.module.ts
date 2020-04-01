@@ -14,6 +14,9 @@ import { NgForComponent } from './ng-for/ng-for.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import { PipesLessonComponent } from './pipes-lesson/pipes-lesson.component';
+import { EmployeeListComponent } from './employee-list/employee-list.component';
+import { EmployeeDetailComponent } from './employee-detail/employee-detail.component';
+import { EmployeeService } from './employee.service';
 
 @NgModule({
   declarations: [
@@ -27,14 +30,16 @@ import { PipesLessonComponent } from './pipes-lesson/pipes-lesson.component';
     NgForComponent,
     ParentComponent,
     ChildComponent,
-    PipesLessonComponent
+    PipesLessonComponent,
+    EmployeeListComponent,
+    EmployeeDetailComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [EmployeeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
