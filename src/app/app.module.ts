@@ -17,6 +17,7 @@ import { ChildComponent } from './child/child.component';
 import { PipesLessonComponent } from './pipes-lesson/pipes-lesson.component';
 import { EmployeeDetailComponent } from './employee-detail/employee-detail.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { DepartmentDetailComponent } from './department-detail/department-detail.component';
 
 
 @NgModule({
@@ -35,6 +36,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     PipesLessonComponent,
     EmployeeDetailComponent,
     PageNotFoundComponent,
+    DepartmentDetailComponent,
   ],
   imports: [
     BrowserModule,
