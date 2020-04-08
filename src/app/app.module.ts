@@ -16,6 +16,7 @@ import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import { PipesLessonComponent } from './pipes-lesson/pipes-lesson.component';
 import { EmployeeDetailComponent } from './employee-detail/employee-detail.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 @NgModule({
@@ -33,6 +34,7 @@ import { EmployeeDetailComponent } from './employee-detail/employee-detail.compo
     ChildComponent,
     PipesLessonComponent,
     EmployeeDetailComponent,
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,
