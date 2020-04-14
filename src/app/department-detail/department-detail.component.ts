@@ -21,17 +21,27 @@ export class DepartmentDetailComponent implements OnInit {
 
   public goToPrevious() {
     let previousId = this.departmentId - 1;
-    this.router.navigate(['departments', previousId]);
+    this.router.navigate(
+      ['../', previousId],
+      { relativeTo: this.activatedRoute }
+    );
   }
 
   public goToNext() {
     let nextId = this.departmentId + 1;
-    this.router.navigate(['departments', nextId]);
+    this.router.navigate(
+      ['../', nextId],
+      { relativeTo: this.activatedRoute }
+    );
   }
 
   public goToDepartments() {
     let selectedId = this.departmentId ? this.departmentId : null;
-    this.router.navigate(['departments/', { id: selectedId }])
+
+    this.router.navigate(
+      ['../', { id: selectedId }], // the object is the optional paramMap
+      { relativeTo: this.activatedRoute } // this uses relative navigation
+    )
   }
 
 }
