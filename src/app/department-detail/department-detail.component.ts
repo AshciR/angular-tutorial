@@ -44,4 +44,12 @@ export class DepartmentDetailComponent implements OnInit {
     )
   }
 
+  public showOverview() {
+    this.router.navigate(['overview'], { relativeTo: this.activatedRoute });
+  }
+
+  public showContact() {
+    this.router.navigate(['contact'], { relativeTo: this.activatedRoute });
+  }
+
 }
